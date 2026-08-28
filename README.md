@@ -1,4 +1,4 @@
-# 🏫 교실 공간 구조화 시뮬레이터 (Classroom Spatial Planner)
+# 🏫 교실 공간 구조화 시뮬레이터
 
 > **선생님과 학생을 위한 스마트 2D 도면 편집 & 3D 실시간 입체 교실 공간 시뮬레이터**  
 > *Developed by 오쌤 INFO*
