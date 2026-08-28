@@ -1,0 +1,52 @@
+# 🏫 교실 공간 구조화 시뮬레이터 (Classroom Spatial Planner)
+
+> **선생님과 학생을 위한 스마트 2D 도면 편집 & 3D 실시간 입체 교실 공간 시뮬레이터**  
+> *Developed by 오쌤 INFO*
+
+---
+
+## ✨ 주요 기능 (Key Features)
+
+- **🎨 2D 도면 편집기**:
+  - 드래그 앤 드롭 비품 배치 및 SAT 기반 0cm 완전 밀착(Touching) 스냅 엔진
+  - 가로·세로·천장고 실시간 치수 조정 및 벽면 스냅 가이드
+- **🧊 3D 입체 뷰어**:
+  - 실제 3D 모델링 가구 실시간 렌더링, 45도 회전, 시점 회전 및 줌 인/아웃
+  - 3D 모드 마우스 비품 드래그 이동 지원
+- **📁 다중 프로젝트 저장 및 관리**:
+  - 여러 학급 및 교실 프로젝트 무제한 생성, 복제, 수정 및 실시간 자동 저장 (`Auto-Save`)
+- **📤 도면 파일 1초 공유 (`.classroom` / JSON Export & Import)**:
+  - 다른 선생님과 카카오톡, 쿨메신저, 이메일로 도면 파일 1클릭 내보내기/가져오기 지원
+- **📷 고화질 내보내기**:
+  - 2D 평면도 & 3D 입체 도면 PNG 고화질 이미지 캡처 및 PDF 배치 보고서 즉시 출력
+- **🔐 Google 계정 연동 및 영구 스토리지**:
+  - 개인 Google 계정 연동 및 개인 구글 드라이브 무료 자동 백업 지원 (관리자 서버 과금 0원)
+
+---
+
+## 🚀 시작하기 (Getting Started)
+
+### 1. 패키지 설치
+```bash
+npm install
+```
+
+### 2. 로컬 개발 서버 실행
+```bash
+npm run dev
+```
+브라우저에서 `http://localhost:5173` 접속
+
+### 3. 배포용 빌드
+```bash
+npm run build
+```
+
+---
+
+## 🌐 기술 스택 (Tech Stack)
+
+- **Frontend**: React 19, Vite, TailwindCSS v4
+- **2D Canvas**: Konva.js, React-Konva
+- **3D Graphics**: Three.js, React Three Fiber (@react-three/fiber), Drei (@react-three/drei)
+- **Export & Tools**: html2canvas, jsPDF, Lucide React
